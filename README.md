@@ -14,14 +14,14 @@ You can view the file [here](https://github.com/moj-analytical-services/lookup_h
 
 You can load it into R with the following command:
 ```
-read.csv("https://raw.githubusercontent.com/moj-analytical-services/lookup_hmcts_regions/master/lad_hmcts_region_lookup.csv", stringsAsFactors = FALSE)
+df <- read.csv("https://raw.githubusercontent.com/moj-analytical-services/lookup_hmcts_regions/master/lad_hmcts_region_lookup.csv", stringsAsFactors = FALSE)
 ```
 
-You can load into Python with the following commands
+You can load into Python with the following commands:
 
 ```
 import pandas as pd 
-pd.read_csv(https://raw.githubusercontent.com/moj-analytical-services/lookup_hmcts_regions/master/lad_hmcts_region_lookup.csv")
+df = pd.read_csv(https://raw.githubusercontent.com/moj-analytical-services/lookup_hmcts_regions/master/lad_hmcts_region_lookup.csv")
 ```
 
 ## Maintainer
