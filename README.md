@@ -1,7 +1,5 @@
 # Local Authority District to HMCTS Regions Lookup
 
-The main 
-
 This repo contains a lookup table that contains the corredpondence between local authorities to HMCTS regions.  
 
 This lookup table is particularly useful for geospacial analysis, such as aggregating statistics at the level of HMCTS regions, or identifying the HMCTS region that geographic units such as courts fall within.
